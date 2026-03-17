@@ -1,3 +1,9 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+
+#root {
+  background-color: #1a2238;
+  min-width: 100%;
+  color: whitesmoke;
+}

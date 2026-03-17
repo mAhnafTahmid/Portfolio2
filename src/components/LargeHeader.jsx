@@ -13,10 +13,12 @@ import MyAvatar from "@/assets/MyAvatar.png";
 const LargeHeader = () => {
   return (
     <div className="flex items-center justify-between w-full px-7">
-      <Avatar>
-        <AvatarImage src={MyAvatar} />
-        <AvatarFallback>CN</AvatarFallback>
-      </Avatar>
+      <Link to="/">
+        <Avatar className="w-8 h-10">
+          <AvatarImage src={MyAvatar} />
+          <AvatarFallback>AT</AvatarFallback>
+        </Avatar>
+      </Link>
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
@@ -24,19 +26,34 @@ const LargeHeader = () => {
               asChild
               className={navigationMenuTriggerStyle()}
             >
-              <Link to="/docs">Education</Link>
+              <Link
+                to="/education"
+                className="hover:text-[#9daaf2] hover:scale-120"
+              >
+                Education
+              </Link>
             </NavigationMenuLink>
             <NavigationMenuLink
               asChild
               className={navigationMenuTriggerStyle()}
             >
-              <Link to="/docs">Experience</Link>
+              <Link
+                to="/experience"
+                className="hover:text-[#9daaf2] hover:scale-120"
+              >
+                Experience
+              </Link>
             </NavigationMenuLink>
             <NavigationMenuLink
               asChild
               className={navigationMenuTriggerStyle()}
             >
-              <Link to="/docs">References</Link>
+              <Link
+                to="/publication"
+                className="hover:text-[#9daaf2] hover:scale-120"
+              >
+                Publication
+              </Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>

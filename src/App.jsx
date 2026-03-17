@@ -1,6 +1,4 @@
 import "./App.css";
-import MobileHeader from "./components/MobileHeader";
-
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
@@ -8,13 +6,15 @@ import Home from "./components/Home";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Publications from "./components/Publications";
+import Header from "./components/Header";
+import Skills from "./components/Skills";
 
 function App() {
   const location = useLocation();
 
   return (
-    <div className="w-full h-fit">
-      <MobileHeader />
+    <div className="w-full h-fit flex flex-col">
+      <Header />
 
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
@@ -22,6 +22,7 @@ function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/publication" element={<Publications />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
       </AnimatePresence>
     </div>

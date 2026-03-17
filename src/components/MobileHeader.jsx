@@ -18,10 +18,12 @@ const MobileHeader = () => {
   return (
     <div className="flex flex-col w-full">
       <div className="flex items-center justify-between w-full px-7 py-3">
-        <Avatar>
-          <AvatarImage src={MyAvatar} />
-          <AvatarFallback>AT</AvatarFallback>
-        </Avatar>
+        <Link to="/">
+          <Avatar className="w-8 h-10">
+            <AvatarImage src={MyAvatar} />
+            <AvatarFallback>AT</AvatarFallback>
+          </Avatar>
+        </Link>
 
         <Sheet>
           <SheetTrigger asChild>

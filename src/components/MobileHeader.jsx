@@ -53,6 +53,18 @@ const MobileHeader = () => {
                   Publication
                 </Link>
               </SheetClose>
+
+              <SheetClose asChild>
+                <Link to="/skills" className="hover:text-primary">
+                  Skills
+                </Link>
+              </SheetClose>
+
+              <SheetClose asChild>
+                <Link to="/projects" className="hover:text-primary">
+                  Projects
+                </Link>
+              </SheetClose>
             </div>
           </SheetContent>
         </Sheet>

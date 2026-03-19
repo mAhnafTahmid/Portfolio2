@@ -5,7 +5,11 @@ const Publications = () => {
   return (
     <PageTransition>
       <div className="w-full min-h-[calc(100vh-104px)] flex flex-col items-top justify-center">
-        <h1 className="text-7xl font-bold">Publications</h1>
+        <h1 className="text-7xl font-bold">
+          Take a look at my <br />{" "}
+          <span className="text-[#ff6a3d]">research</span> &{" "}
+          <span className="text-[#ff6a3d]">publications</span>!
+        </h1>
         <div className="max-w-[70%] mx-auto pb-24">
           <div className="flex flex-col mt-20 items-start">
             <div className="flex justify-between w-full">

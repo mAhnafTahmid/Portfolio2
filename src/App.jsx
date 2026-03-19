@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 import Publications from "./components/Publications";
 import Header from "./components/Header";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   const location = useLocation();
@@ -23,6 +24,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/publication" element={<Publications />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </AnimatePresence>
     </div>

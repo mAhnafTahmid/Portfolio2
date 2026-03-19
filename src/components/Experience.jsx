@@ -6,7 +6,7 @@ const Experience = () => {
     <PageTransition>
       <div className="w-full min-h-[calc(100vh-104px)] flex flex-col items-top justify-center">
         <h1 className="text-7xl font-bold">Experience</h1>
-        <div className="max-w-[70%] mx-auto">
+        <div className="max-w-[70%] mx-auto pb-20">
           <div className="flex flex-col mt-20 items-start">
             <div className="flex justify-between w-full">
               <h2 className="text-3xl text-[#9daaf2]">Adjunct Lecturer</h2>

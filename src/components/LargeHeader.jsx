@@ -55,6 +55,28 @@ const LargeHeader = () => {
                 Publication
               </Link>
             </NavigationMenuLink>
+            <NavigationMenuLink
+              asChild
+              className={navigationMenuTriggerStyle()}
+            >
+              <Link
+                to="/skills"
+                className="hover:text-[#9daaf2] hover:scale-120"
+              >
+                Skills
+              </Link>
+            </NavigationMenuLink>
+            <NavigationMenuLink
+              asChild
+              className={navigationMenuTriggerStyle()}
+            >
+              <Link
+                to="/projects"
+                className="hover:text-[#9daaf2] hover:scale-120"
+              >
+                Projects
+              </Link>
+            </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>

@@ -12,8 +12,10 @@ const Publications = () => {
         </h1>
         <div className="max-w-[70%] mx-auto pb-24">
           <div className="flex flex-col mt-20 items-start">
-            <div className="flex justify-between w-full">
-              <h2 className="text-3xl text-[#9daaf2]">Short Paper</h2>
+            <div className="flex sm:flex-row flex-col sm:justify-between w-full">
+              <h2 className="text-3xl text-[#9daaf2] sm:pb-0 pb-2">
+                Short Paper
+              </h2>
               <h2>Dec 2025</h2>
             </div>
             <h3 className="text-2xl font-semibold mt-2 text-[#ff6a3d]">
@@ -35,8 +37,10 @@ const Publications = () => {
             </div>
           </div>
           <div className="flex flex-col mt-20 items-start">
-            <div className="flex justify-between w-full">
-              <h2 className="text-3xl text-[#9daaf2]">Undergraduate Thesis</h2>
+            <div className="flex sm:flex-row flex-col sm:justify-between w-full">
+              <h2 className="text-3xl text-[#9daaf2] sm:pb-0 pb-2">
+                Undergraduate Thesis
+              </h2>
               <h2>Jan 2024</h2>
             </div>
             <h3 className="text-2xl font-semibold mt-2 text-[#ff6a3d]">
@@ -57,8 +61,8 @@ const Publications = () => {
             </div>
           </div>
           <div className="flex flex-col mt-20 items-start">
-            <div className="flex justify-between w-full">
-              <h2 className="text-3xl text-[#9daaf2]">Poster</h2>
+            <div className="flex sm:flex-row flex-col sm:justify-between w-full">
+              <h2 className="text-3xl text-[#9daaf2] sm:pb-0 pb-2">Poster</h2>
               <h2>Dec 2023</h2>
             </div>
             <h3 className="text-2xl font-semibold mt-2 text-[#ff6a3d]">

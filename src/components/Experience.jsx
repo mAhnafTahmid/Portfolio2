@@ -8,8 +8,10 @@ const Experience = () => {
         <h1 className="text-7xl font-bold">Experience</h1>
         <div className="max-w-[70%] mx-auto pb-20">
           <div className="flex flex-col mt-20 items-start">
-            <div className="flex justify-between w-full">
-              <h2 className="text-3xl text-[#9daaf2]">Adjunct Lecturer</h2>
+            <div className="flex sm:flex-row flex-col sm:justify-between w-full">
+              <h2 className="text-3xl text-[#9daaf2] sm:pb-0 pb-2">
+                Adjunct Lecturer
+              </h2>
               <h2>June 2025 - October 2025</h2>
             </div>
             <h3 className="text-2xl font-semibold mt-2 text-[#ff6a3d]">
@@ -27,8 +29,8 @@ const Experience = () => {
             </ul>
           </div>
           <div className="flex flex-col mt-20 items-start">
-            <div className="flex justify-between w-full">
-              <h2 className="text-3xl text-[#9daaf2]">
+            <div className="flex sm:flex-row flex-col sm:justify-between w-full">
+              <h2 className="text-3xl text-[#9daaf2] sm:pb-0 pb-2">
                 Intern Software Engineer
               </h2>
               <h2>Jan 2025 – Mar 2025</h2>
@@ -48,8 +50,8 @@ const Experience = () => {
             </ul>
           </div>
           <div className="flex flex-col mt-20 items-start">
-            <div className="flex justify-between w-full">
-              <h2 className="text-3xl text-[#9daaf2]">
+            <div className="flex sm:flex-row flex-col sm:justify-between w-full">
+              <h2 className="text-3xl text-[#9daaf2] sm:pb-0 pb-2">
                 Intern Software Engineer
               </h2>
               <h2>Jul 2024 – Oct 2024</h2>
@@ -66,8 +68,8 @@ const Experience = () => {
             </ul>
           </div>
           <div className="flex flex-col mt-20 items-start">
-            <div className="flex justify-between w-full">
-              <h2 className="text-3xl text-[#9daaf2]">
+            <div className="flex sm:flex-row flex-col sm:justify-between w-full">
+              <h2 className="text-3xl text-[#9daaf2] sm:pb-0 pb-2">
                 Undergrad Teaching Assistant
               </h2>
               <h2>Sep 2022 – May 2024</h2>

@@ -101,7 +101,7 @@ const Skills = () => {
           <h2 className="text-3xl font-semibold mb-8 text-[#9daaf2]">
             Languages
           </h2>
-          <div className="flex flex-wrap gap-10 max-w-1/2 items-center justify-center">
+          <div className="flex flex-wrap gap-10 sm:max-w-1/2 max-w-[80%] items-center justify-center">
             {languages.map((lang) => (
               <div
                 key={lang.name}
@@ -117,7 +117,7 @@ const Skills = () => {
           <h2 className="text-3xl font-semibold mb-8 text-[#9daaf2]">
             Frameworks & Tools
           </h2>
-          <div className="flex flex-wrap gap-10 max-w-1/2 items-center justify-center">
+          <div className="flex flex-wrap gap-10 sm:max-w-1/2 max-w-[80%] items-center justify-center">
             {frameworksAndTools.map((fat) => (
               <div
                 key={fat.name}
@@ -133,7 +133,7 @@ const Skills = () => {
           <h2 className="text-3xl font-semibold mb-8 text-[#9daaf2]">
             Databases
           </h2>
-          <div className="flex flex-wrap gap-10 max-w-1/2 items-center justify-center">
+          <div className="flex flex-wrap gap-10 sm:max-w-1/2 max-w-[80%] items-center justify-center">
             {databases.map((db) => (
               <div
                 key={db.name}
